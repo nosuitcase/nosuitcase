@@ -1,0 +1,34 @@
+//Fonts
+$base-font-size: 16px !default;
+$base-font-family-sans: 'Avenir' !default;
+$base-font-family-mono: 'Roboto Mono' !default;
+$base-font-family-serif: 'Abril Fatface' !default;
+$base-font-weight-light: 300;
+$base-font-weight-normal: 400;
+$base-font-weight-bold: 700;
+
+//Colors 
+$brand-color: #E91E63 !default;
+$brand-secondary-color: #74E2FD !default;
+$body-color: #252625 !default;
+
+//Breakpoints
+$breakpoint: (
+  'small': 0,
+  'medium': 600,
+  'large': 900,
+  'xlarge': 1200,
+  'xxlarge': 1600,
+  ) !default;
+
+$print-breakpoint: large !default;
+$zero-breakpoint: small !default;
+$breakpoints-keys: map-to-list($breakpoint, 'keys') !default;
+$breakpoint-classes: (small medium large xlarge xxlarge) !default;
+
+// Default Padding
+$defaultPadding: (
+  'small' : 36px 16px,
+  'medium': 36px 24px,
+  'large' : 64px 88px
+  ) !default;

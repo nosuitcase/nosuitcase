@@ -1,0 +1,52 @@
+@mixin apply-home-styles() {
+    .ns_container {
+        margin: 0 auto;
+        padding: 2rem 1rem;
+
+        @include breakpoint('medium') {
+            padding: 2rem;
+            max-width: rem-calc(620);
+        }
+    }
+
+    .ns_cover-container {
+        margin-bottom: 4rem; 
+        box-shadow: 0 20px 45px #666666;
+    }
+
+    .ns_podcast-container {
+        margin: 1rem 0;    
+    }
+
+    .ns_podcast-listen-title {
+        text-align: center;
+    }
+
+    .ns_podcast-list {
+        @include breakpoint('medium') {
+            @include grid-row();
+            @include grid-row-alignment($align-items:center);
+        }
+    }
+
+    .ns_podcast-list-item {
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .ns_podcast-list-image {
+        max-width: 170px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .ns_hosts {
+        margin: 4rem 0;
+        text-align: center;
+    }
+
+    .ns_hosts-host  {
+        display: inline-block;
+        padding: 1rem;
+    }
+}
