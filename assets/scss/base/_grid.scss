@@ -1,10 +1,10 @@
-@mixin grid-row() {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+@mixin grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-@mixin grid-row-alignment($justify-content: space-around, $align-items: stretch){
-  justify-content: $justify-content;
-  align-items: $align-items;
+@mixin grid-row-alignment($justify-content: space-around, $align-items: stretch) {
+    justify-content: $justify-content;
+    align-items: $align-items;
 }

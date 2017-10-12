@@ -1,21 +1,21 @@
-@mixin apply-home-styles() {
+@mixin apply-home-styles {
     .ns_container {
         margin: 0 auto;
         padding: rem-calc(32) rem-calc(16);
 
-        @include breakpoint('medium') {
+        @include breakpoint("medium") {
             padding: rem-calc(32);
             max-width: rem-calc(620);
         }
     }
 
     .ns_cover-container {
-        margin-bottom: rem-calc(64); 
+        margin-bottom: rem-calc(64);
         box-shadow: 0 rem-calc(20) rem-calc(45) #666666;
     }
 
     .ns_podcast-container {
-        margin: rem-calc(16) 0;    
+        margin: rem-calc(16) 0;
     }
 
     .ns_podcast-listen-title {
@@ -23,9 +23,9 @@
     }
 
     .ns_podcast-list {
-        @include breakpoint('medium') {
-            @include grid-row();
-            @include grid-row-alignment($align-items:center);
+        @include breakpoint("medium") {
+            @include grid-row;
+            @include grid-row-alignment($align-items: center);
         }
     }
 
@@ -39,13 +39,13 @@
         width: 100%;
         height: auto;
     }
-    
+
     .ns_hosts {
         margin: rem-calc(64) 0;
         text-align: center;
     }
 
-    .ns_hosts-host  {
+    .ns_hosts-host {
         display: inline-block;
         padding: rem-calc(16);
     }

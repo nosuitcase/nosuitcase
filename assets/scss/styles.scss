@@ -1,7 +1,7 @@
-@import 'cork.scss';
-@import 'abstracts/variables.scss';
-@import 'abstracts/functions.scss';
-@import 'base/base.scss';
-@import 'components/components.scss';
+@import "cork.scss";
+@import "abstracts/variables.scss";
+@import "abstracts/functions.scss";
+@import "base/base.scss";
+@import "components/components.scss";
 
-@include apply-home-styles();
+@include apply-home-styles;
