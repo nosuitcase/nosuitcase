@@ -20,7 +20,6 @@ $breakpoint: (
   'xlarge': 1200,
   'xxlarge': 1600,
   ) !default;
-
 $print-breakpoint: large !default;
 $zero-breakpoint: small !default;
 $breakpoints-keys: map-to-list($breakpoint, 'keys') !default;
@@ -32,3 +31,4 @@ $defaultPadding: (
   'medium': 36px 24px,
   'large' : 64px 88px
   ) !default;
+  

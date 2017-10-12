@@ -1,21 +1,21 @@
 @mixin apply-home-styles() {
     .ns_container {
         margin: 0 auto;
-        padding: 2rem 1rem;
+        padding: rem-calc(32) rem-calc(16);
 
         @include breakpoint('medium') {
-            padding: 2rem;
+            padding: rem-calc(32);
             max-width: rem-calc(620);
         }
     }
 
     .ns_cover-container {
-        margin-bottom: 4rem; 
-        box-shadow: 0 20px 45px #666666;
+        margin-bottom: rem-calc(64); 
+        box-shadow: 0 rem-calc(20) rem-calc(45) #666666;
     }
 
     .ns_podcast-container {
-        margin: 1rem 0;    
+        margin: rem-calc(16) 0;    
     }
 
     .ns_podcast-listen-title {
@@ -31,22 +31,22 @@
 
     .ns_podcast-list-item {
         text-align: center;
-        margin: 2rem;
+        margin: rem-calc(32);
     }
 
     .ns_podcast-list-image {
-        max-width: 170px;
+        max-width: rem-calc(170);
         width: 100%;
         height: auto;
     }
     
     .ns_hosts {
-        margin: 4rem 0;
+        margin: rem-calc(64) 0;
         text-align: center;
     }
 
     .ns_hosts-host  {
         display: inline-block;
-        padding: 1rem;
+        padding: rem-calc(16);
     }
 }

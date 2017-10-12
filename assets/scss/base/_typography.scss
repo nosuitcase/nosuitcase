@@ -43,7 +43,7 @@ p {
   @include apply-font-stack($base-font-family-sans);
   font-size: rem-calc(24);
   font-weight: 700;
-  color:#444;
+  color: #444;
 }
 
 @mixin heading-style-h3() {
